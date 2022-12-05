@@ -1,0 +1,54 @@
+.app_head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app_name {
+    font-size: 20px;
+}
+
+.app_secret {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 12px;
+    margin: 30px 0 50px;
+    background-color: #f8f9fa;
+    color: var(--main_color);
+    cursor: pointer;
+}
+
+.graph_frame .graph {
+    width: 100%;
+    padding: 30px;
+    border: solid 1px var(--text_color);
+    border-radius: 12px;
+}
+
+.graph_frame .graph:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.graph .graph_head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.graph .graph_head.has_edit {
+    margin-bottom: 20px;
+}
+
+.graph .graph_name {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.graph .edit_frame input,
+.graph .new_frame input {
+    margin-right: 12px;
+}
+
+.graph .new_frame {
+    margin-top: 20px;
+}

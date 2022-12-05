@@ -1,0 +1,12 @@
+.new_app {
+    border: solid 1px var(--text_color);
+    border-radius: 12px;
+    padding: 80px 15px;
+    text-align: center;
+}
+
+.new_app input {
+    width: 100%;
+    max-width: 370px;
+    margin-bottom: 40px;
+}

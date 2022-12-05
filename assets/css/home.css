@@ -1,0 +1,46 @@
+@import url(./var.css);
+
+.app_wrapper {
+    display: flex;
+    gap: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.app_wrapper .app {
+    width: 30%;
+    border-radius: 20px;
+    border: solid 1px var(--text_color);
+    min-width: 260px;
+}
+
+.app_wrapper .app a {
+    display: block;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 999px) {
+    
+    .app_wrapper {
+        gap: 20px;
+    }
+
+    .app_wrapper .app {
+        width: 48%;
+        min-width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .app_wrapper .app {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .app_wrapper .app a {
+        padding: 80px 15px;
+    }
+}
+
+
